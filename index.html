@@ -9,16 +9,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="bg-gray-200 h-screen w-screen flex justify-center items-center">
     <!-- CARD -->
-    <main>
-      <h2>Focus!</h2>
-      <h1>44:55</h1>
+    <main
+      class="bg-white rounded border-b-4 border-red-500 p-4 font-mono text-red-500 font-bold shadow-md flex flex-col items-center gap-4"
+    >
+      <h2 class="text-2xl sm:text-3xl">Focus!</h2>
+      <h1 class="text-7xl sm:text-8xl">44:55</h1>
 
       <!-- BUTTONS -->
       <section>
         <button aria-label="restart">
           <svg
+            class="fill-gray-500 hover:fill-red-500 cursor-pointer"
             xmlns="http://www.w3.org/2000/svg"
             height="35px"
             viewBox="0 -960 960 960"
@@ -31,6 +34,7 @@
         </button>
         <button aria-label="pause">
           <svg
+            class="fill-gray-500 hover:fill-red-500 cursor-pointer"
             xmlns="http://www.w3.org/2000/svg"
             height="35px"
             viewBox="0 -960 960 960"
@@ -41,6 +45,7 @@
         </button>
         <button aria-label="skip">
           <svg
+            class="fill-gray-500 hover:fill-red-500 cursor-pointer"
             xmlns="http://www.w3.org/2000/svg"
             height="35px"
             viewBox="0 -960 960 960"
